@@ -1,5 +1,3 @@
-# VSCode Python Notebooks
+# VSCode Python Completed Notebook
 
-In this notebook, you can view the python notebook where we calculate the safety stock from the transaction data. The transaction data is provided under the "Data" folder of this repository. 
-
-- Final notebook "safety stock" (bringing a1 and a2 together)
+In this folder, you can view the completed python notebook where we combine both assignments to calculate the safety stock from the transaction data. This analysis contains 8 steps across 2 sections showing commentary and explanation for the steps we take to come to our concluded calculations. 
