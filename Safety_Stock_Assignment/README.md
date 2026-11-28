@@ -6,7 +6,7 @@ Inventory management is one of the most critical operational tasks, where this r
 For many,if not all companies, avoiding a stock out is very important. A stock out is when the site that products are sold completely run out of inventory for an item, the downside to this happening is the loss of potential revenue from customers, not meeting customer demand, and ultimately resulting in the loss of customer trust. Inventory management becomes in charge of avoiding this unfortunate outcome by performing stock out risk analysis and ordering safety stock for items to meet the demand for these items. 
 
 ## Objective
-In this repository we demonstrate this process by calculating the safety stock of items within a transactional data set. 
+In this repository we demonstrate this process by calculating the safety stock for items within a transactional data set. 
 
 ## Data Source
 This data source is provided from the OM620 Tools and Technology course. The data provided is a transaction dataset that tracks the production of various items to stock in 784,638 observations. This data shows: The SKU item's inventory type, stocking type, lead time in days, their unit price, manufacturing site, the business ID code assigned to the item, transaction date, and the order quantity within the transaction. This data can be found in the "Data" folder of this repository. 
@@ -96,33 +96,3 @@ mts_df["safety_stock_95"].mean()
 
 ## Conclusion
 There demonstrated we have calculated the safety stock for the provided transactional data. To look through the code and commentary for this please refer to the "Completed Notebook" folder within my "OM620-Tools-Technologies" repository. 
-
-## Provided Resources: 
-...............
-
-## Additional Resources Used:
-
-- Bobbitt, Z. (2021, April 26). Percentile vs. quartile vs. quantile: What’s the difference? Statology. https://www.statology.org/percentile-vs-quartile-vs-quantile/
-
-
-- Stack Overflow(2022). "How do I calculate square root in Python?". Retrieved November 17, 2026. https://stackoverflow.com/questions/70793490/how-do-i-calculate-square-root-in-python 
-
-
-When searching for "How to square root in python" on Stack Overflow, we come across a post (Stack Overflow, 2022) that has last been edited this year on August 24th that indicates the snippet below:
-
-```
-Option 2: Fractional exponent
-The power operator (**) or the built-in pow() function can also be used to calculate a square root. Mathematically speaking, the square root of a equals a to the power of 1/2.
-
-The power operator requires numeric types and matches the conversion rules for binary arithmetic operators, so in this case it will return either a float or a complex number
-
->>> 9 ** (1/2)
-3.0
->>> 9 ** .5  # Same thing
-3.0
->>> 2 ** .5
-1.4142135623730951
-
-```
-
-
